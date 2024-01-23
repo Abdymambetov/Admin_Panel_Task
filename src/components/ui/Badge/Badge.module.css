@@ -1,0 +1,12 @@
+.badge {
+    width: max-content;
+    border-radius: 10px;
+    border: 1px solid var(--secondary-gray);
+    padding: 8px 15px;
+    color: var(--secondary-gray);
+}
+
+.admin {
+    border-color: var(--primary-violet);
+    color: var(--primary-violet);
+}

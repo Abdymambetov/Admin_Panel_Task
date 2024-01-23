@@ -1,0 +1,11 @@
+.card {
+    padding: 18px 29px 18px 29px;
+    background: var(--primary-white);
+    display: flex;
+    justify-content: space-between;
+}
+  
+.card:hover {
+    background: #efeff6;
+}
+  

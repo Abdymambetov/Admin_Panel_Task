@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+}
+  
+.container {
+    padding: 53px 100px 50px 105px;
+    width: 100%;
+}
+  
+@media (max-width: 900px) {
+    .container {
+      padding: 2%;
+    }
+}
+  
+@media (max-width: 700px) {
+    .container {
+      padding: 15px;
+      background: var(--primary-white);
+    }
+  
+    .wrapper {
+      flex-direction: column;
+    }
+}
+  

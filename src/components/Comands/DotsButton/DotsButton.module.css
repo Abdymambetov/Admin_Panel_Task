@@ -1,0 +1,19 @@
+.button {
+    background: none;
+    height: 24px;
+    width: 24px;
+}
+
+.popover {
+    padding: 22px 30px 27px 26px !important;
+    border-radius: 15px !important;
+    background: var(--primary-white);
+    box-shadow: -30px 30px 50px 0px rgba(28, 28, 30, 0.1) !important;
+}
+
+.button_delete {
+    color: var(--primary-gray);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 20px;
+}

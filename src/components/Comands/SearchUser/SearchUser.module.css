@@ -1,0 +1,59 @@
+.label {
+    position: relative;
+    max-width: 650px;
+    flex: 1;
+}
+  
+.input {
+    padding: 10px 10px 10px 13px;
+    height: 36px;
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: 1s;
+}
+  
+.input::placeholder {
+    font-family: "Futura PT", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    color: var(--primary-gray);
+}
+  
+.icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+  
+.input-enter {
+    animation: inputEnterAnimation 0.5s forwards;
+}
+  
+.input-leave {
+    animation: inputLeaveAnimation 0.5s forwards;
+}
+  
+@keyframes inputEnterAnimation {
+    0% {
+      transform: scaleX(0) translateX(-50px);
+      transform-origin: right;
+    }
+  
+    100% {
+      transform: scaleX(1) translateX(0);
+    }
+}
+  
+  @keyframes inputLeaveAnimation {
+    0% {
+      transform: scaleX(1) translateX(0);
+    }
+  
+    100% {
+      transform: scaleX(0) translateX(-50px);
+    }
+}
+  

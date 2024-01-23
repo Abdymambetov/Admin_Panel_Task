@@ -1,0 +1,19 @@
+.button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    background: var(--primary-green);
+    color: var(--primary-white);
+    text-align: center;
+    font-family: "Futura PT", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 450;
+    line-height: 20px;
+    transition: all 0.3s;
+}
+
+.button:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transform: scale(1.01);
+}

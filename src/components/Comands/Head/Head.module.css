@@ -1,0 +1,25 @@
+.head {
+    width: 100%;
+    padding: 19px 29px 18px;
+    background: var(--primary-white);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+  
+.title {
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 44px;
+    color: var(--primary-dark);
+}
+  
+.tools {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+  

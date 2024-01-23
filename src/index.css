@@ -1,0 +1,62 @@
+@import url("https://fonts.cdnfonts.com/css/futura-pt");
+@import "./reset.css";
+
+:root {
+  font-family: "Futura PT", sans-serif;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-gray: #9494a0;
+  --secondary-gray: #c1c1cb;
+  --primary-dark: #424f5e;
+  --primary-green: #32c076;
+  --primary-violet: #5a57ff;
+  --gray-hover: #efeff6;
+  --primary-white: #f9fafb;
+}
+
+[data-accent-color="indigo"] {
+  --accent-9: var(--primary-violet);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#root {
+  min-height: 100vh;
+  background: #ebebf0;
+}
+
+.typography-1 {
+  color: var(--primary-dark);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.typography-1-light {
+  color: var(--primary-dark);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.typography-2 {
+  color: var(--primary-gray);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.typography-3 {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
